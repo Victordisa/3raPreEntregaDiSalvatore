@@ -9,7 +9,7 @@
     }
     .checkbtn{ 
         display: block;
-        margin-left: 100px;
+        margin-left: 47%;
         margin-top: 10px;
 
     }
@@ -55,7 +55,7 @@
     }
 
     #check:checked ~ ul{
-        left: -105%;
+        left: -100%;
     }
     .seccion__inicio{
         height: 600px;
@@ -188,7 +188,7 @@
         color: black;
         text-align: center;
         margin: 50px 50px;
-        padding: 20px 25px 65px 25px;
+        padding: 40px 25px 70px 25px;
         background-color: orange;
          box-shadow: 0 5px 10px -5px rgb(124, 122, 122);
          border-radius: 5px;
@@ -214,12 +214,19 @@
     .form input{
         font-size: 11px;
     }
+    .contactos h2{
+        display: none;
+    
+    }
+    .contactos p{
+        display: none;
+    }
     .seccion__nosotros{
         height: 500px;
     }
     .seccion__nosotros p{
         color: white;
-        margin: 40px 60px 0 40px;
+        margin: 40px 60px 0 90px;
         font-size: 12px;
     }
     .Respuesta__faqs{
