@@ -422,6 +422,7 @@ footer {
     height: 80px; }
   .navegador ul {
     position: relative;
+    border: 5px solid black;
     flex-direction: column;
     border-radius: 7px;
     background: orange;
