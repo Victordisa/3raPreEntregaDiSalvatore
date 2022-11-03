@@ -1,1 +1,1 @@
-Responsive SASS y SEO listos.. en mobile me base en 375x660
+Responsive SASS y SEO listos.. 
