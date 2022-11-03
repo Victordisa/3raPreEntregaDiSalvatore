@@ -1,1 +1,1 @@
-Responsive SASS y SEO listos.. 
+Responsive SASS y SEO listos.. en cuanto al responsive de portatil, cuando lo coloco a 1024px se me genera un scroll pero con portatil L 1440px que es mi laptop se ve perfecto, pregunte en coeask y me dijeron que no habia problema. 
