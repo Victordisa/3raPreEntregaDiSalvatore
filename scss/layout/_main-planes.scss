@@ -1,0 +1,104 @@
+$color: orange;
+
+.seccion__planes{
+    grid-area: b;
+    display: flex;
+    background-image: url("../assets/imagen_home.jpg"); /*agrandar imagen */
+    height: 900px; 
+}
+
+.seccion__planes{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "a b c";
+
+}
+
+.seccion__plan1{
+    grid-area: a;
+    border: 5px solid white;
+    margin: 40% 0;
+    background-color: black;
+    
+}
+
+.seccion__planes .seccion__plan1 h3{
+    margin-left: 35%;
+    color: white;
+}
+
+.seccion__planes .seccion__plan1 img{
+    @include props-secciones;
+}
+.seccion__planes .seccion__plan1 p{
+    color: white;
+    margin-bottom: 15px;
+}
+.seccion__planes .seccion__plan1 a{
+    color: white;
+    padding: 10px;
+    margin-left: 5px;
+    background-color: $color;
+    border: 2px solid orange;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.seccion__plan2{
+    grid-area: b;
+    @extend .seccion__plan1;
+}
+
+.seccion__planes .seccion__plan2 h3{
+    margin-left: 35%;
+    color: white;
+}
+
+.seccion__planes .seccion__plan2 img{
+    @include props-secciones;
+}
+.seccion__planes .seccion__plan2 p{
+    color: white;
+    margin-bottom: 15px;
+}
+.seccion__planes .seccion__plan2 a{
+    color: white;
+    padding: 10px;
+    margin-left: 5px;
+    background-color: $color;
+    border: 2px solid orange;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.seccion__plan3{
+    grid-area: c;
+    @extend .seccion__plan1;
+}
+
+.seccion__planes .seccion__plan3 h3{
+    margin-left: 35%;
+    color: white;
+}
+.seccion__planes .seccion__plan3 img{
+    @include props-secciones;
+}
+.seccion__planes .seccion__plan3 p{
+    color: white;
+    margin-bottom: 15px;
+}
+.seccion__planes .seccion__plan3 a{
+    color: white;
+    padding: 10px;
+    margin-left: 5px;
+    background-color: $color;
+    border: 2px solid orange;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.seccion__planes a:hover{
+    color: black;
+}

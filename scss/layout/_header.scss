@@ -1,0 +1,53 @@
+.contenedor{
+    overflow: scroll;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "a a a"
+    "b b b"
+    "c c c";
+}
+
+.navegador{
+    grid-area: a;
+    background-color: black;
+    @include props-plan;
+    padding: 15px;
+}
+.logo{
+    display: flex;
+    img{
+        margin-left: 50px;
+    }
+}
+
+
+
+.navegador ul{
+    display: flex;
+    
+}
+
+.navegador ul a{
+    margin-right: 40px;
+    color: white;
+    font-size: 15px;
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navegador a:hover{
+    color:orange;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}

@@ -1,0 +1,32 @@
+.seccion__inicio{
+    grid-area: b;
+    display: flex;
+    background-image: url("../assets/imagen_home.jpg"); /*agrandar imagen */
+    height: 900px;
+}
+.seccion__texto__inicio{
+    display: inline-block;
+    color: white;
+    margin: 150px 1000px 0 120px;
+    h1{
+        margin-bottom: 30px;
+        color: orange;
+    }
+    h2{
+        margin-bottom: 30px;
+    }
+    p{
+        margin-bottom: 30px;
+    }
+    a{
+        color: white;
+        padding: 10px;
+        background-color: orange;
+        border: 2px solid orange;
+        text-decoration: none;
+    }
+}
+
+.seccion__texto__inicio a:hover{
+    color: black;
+} 

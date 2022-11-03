@@ -1,0 +1,86 @@
+.seccion__contactenos{
+    grid-area: b;
+    display: flex;
+    background-color: black;
+    height: 900px;
+}
+
+.formulario{
+    align-self: center;
+    color: white;
+    background-color: orange;
+    padding: 307px 100px;
+    margin-top: 4px;
+}
+.Nombre__ap input{
+    background: none;
+    border:none;
+    border-bottom: 1px solid black;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+.email{
+    text-align: center;
+    input{
+        background: none;
+        border:none;
+        border-bottom: 1px solid black;
+        margin: 15px;
+        outline: none;
+        cursor: pointer;
+    }
+}
+
+.edo__civil{
+    border-radius: 5px;
+    text-align: center;
+    select{
+        background: none;
+        border:none;
+        border-bottom: 1px solid black;
+        margin: 15px;
+        outline: none;
+        cursor: pointer;
+    }
+}
+
+.noticias{
+    text-align: center;
+}
+.form{
+    margin-top: 15px;
+    text-align: center;
+    input{
+        cursor: pointer;
+    }
+    
+}
+
+.contactos h2{
+    display: flex;
+    color: white;
+    justify-content: left;
+    margin-left:70px;
+    margin-top: 80px;
+
+}
+.contactos p{
+    color: white;
+    margin: 50px 70px;
+}
+.seccion__nosotros{
+    grid-area: b;
+    background-image: url("../assets/imagen_home.jpg"); /*agrandar imagen */
+    height: 900px;
+    h2{
+        color: white;
+        margin-top: 80px;
+        margin-left: 40px;
+    }
+}
+.seccion__nosotros p{
+    color: white;
+    margin: 40px 750px 80px 40px;
+}

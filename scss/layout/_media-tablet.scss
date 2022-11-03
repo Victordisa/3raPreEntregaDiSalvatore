@@ -1,0 +1,166 @@
+@media (max-width: 768px) {
+    
+    .seccion__texto__inicio{
+        margin: 150px 400px 0 120px;
+    }
+    .seccion__planes{
+        overflow: hidden;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+        "a"
+        "b"
+        "c";
+        }
+        .seccion__plan1{
+            grid-area: a;
+            border: 5px solid white;
+            margin: 5px 60px;
+            background-color: black;
+            width: 650px;
+            
+        }
+            
+        .seccion__planes .seccion__plan1 h3{
+            margin-left: 40%;
+            color: white;
+        }
+            
+        .seccion__planes .seccion__plan1 img{
+            height: 150px;
+            width: 450px;
+            margin: 8px 90px;
+        }
+        .seccion__planes .seccion__plan1 p{
+            color: white;
+            font-size: 10px;
+        }
+        .seccion__planes .seccion__plan1 a{
+            color: white;
+            font-size: 10px;
+            padding: 6px;
+            margin-left: 5px;
+            background-color: orange;
+            border: 2px solid orange;
+            border-radius: 3px;
+            text-decoration: none;
+        }
+        .seccion__plan2{
+            grid-area: b;
+            border: 5px solid white;
+            margin: 5px 60px;
+            background-color: black;
+            width: 650px;
+            
+        }
+            
+        .seccion__planes .seccion__plan2 h3{
+            margin-left: 40%;
+            color: white;
+        }
+            
+        .seccion__planes .seccion__plan2 img{
+            height: 150px;
+            width: 450px;
+            margin: 8px 90px;
+        }
+        .seccion__planes .seccion__plan2 p{
+            color: white;
+            font-size: 10px;
+        }
+        .seccion__planes .seccion__plan2 a{
+            color: white;
+            font-size: 10px;
+            padding: 6px;
+            margin-left: 5px;
+            background-color: orange;
+            border: 2px solid orange;
+            border-radius: 3px;
+            text-decoration: none;
+        }
+        .seccion__plan3{
+            grid-area: c;
+            border: 5px solid white;
+            margin: 5px 60px;
+            background-color: black;
+            width: 650px;
+            
+        }
+            
+        .seccion__planes .seccion__plan3 h3{
+            margin-left: 40%;
+            color: white;
+        }
+            
+        .seccion__planes .seccion__plan3 img{
+            height: 150px;
+            width: 450px;
+            margin: 8px 90px;
+        }
+        .seccion__planes .seccion__plan3 p{
+            color: white;
+            font-size: 10px;
+        }
+        .seccion__planes .seccion__plan3 a{
+            color: white;
+            font-size: 10px;
+            padding: 6px;
+            margin-left: 5px;
+            background-color: orange;
+            border: 2px solid orange;
+            border-radius: 3px;
+            text-decoration: none;
+        }
+        .seccion__nosotros{
+            height: 500px;
+        }
+        .seccion__contactenos{
+            height: 600px;
+        }
+        .formulario{
+            margin: 50px;
+            text-align: center;
+            padding: 55px;
+            background-color: orange;
+             box-shadow: 0 5px 10px -5px rgb(124, 122, 122);
+             border-radius: 5px;
+        
+        }
+        .Nombre__ap input{
+            font-size: 15px;
+            margin: 20px 10px;
+            background: none;
+            border:none;
+            border-bottom: 1px solid black;
+            outline: none;
+            cursor: pointer;
+            
+        }
+        .noticias input{
+            margin-top: 20px;
+        }
+    
+        .form{
+            margin-top: 5px;
+        }
+        .form input{
+            font-size: 11px;
+        }
+        
+        .seccion__nosotros p{
+            color: white;
+            margin: 40px 50px;
+            font-size: 15px;
+        }
+        .Respuesta__faqs{
+            color: white;
+            font-size: 15px;
+            margin: 30px 90px;
+            
+         }
+         .seccion__faq{
+            height: 500px;
+         }
+
+
+}
