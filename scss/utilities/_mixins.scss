@@ -6,10 +6,15 @@
 @mixin props-secciones {
     height: 200px;
     width: 430px;
-    margin: 10px 15px;
+    margin: 10px 30px;
 }
 @mixin props-productos {
     height: 150px;
     width: 300px;
     margin: 15px 20px;
+}
+@mixin img-tablet{
+    height: 150px;
+    width: 450px;
+    margin: 8px 90px;
 }

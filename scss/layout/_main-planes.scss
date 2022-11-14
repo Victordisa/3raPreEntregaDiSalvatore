@@ -60,7 +60,7 @@ $color: orange;
 }
 .seccion__planes .seccion__plan2 p{
     color: white;
-    margin-bottom: 15px;
+    margin-bottom: 32px;
 }
 .seccion__planes .seccion__plan2 a{
     color: white;
@@ -86,7 +86,7 @@ $color: orange;
 }
 .seccion__planes .seccion__plan3 p{
     color: white;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
 }
 .seccion__planes .seccion__plan3 a{
     color: white;
@@ -100,4 +100,8 @@ $color: orange;
 
 .seccion__planes a:hover{
     color: black;
+}
+.seccion__planes img:hover{
+    transform: scale(1.10);
+    transition: all .4s;
 }

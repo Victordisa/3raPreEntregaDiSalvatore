@@ -9,7 +9,7 @@
     }
     .checkbtn{ 
         display: block;
-        margin-left: 47%;
+        margin-left: 50%;
         margin-top: 10px;
 
     }
@@ -25,10 +25,11 @@
         width: 70px;
     }
     .navegador{
-        height: 80px;
+        height: 95px;
     }
     .navegador ul{
         position:relative;
+        padding-right: 30%;
         border: 5px solid black;
         flex-direction: column;
         border-radius: 7px;
@@ -36,14 +37,14 @@
         left: -190%;
         text-align: center;
         transition: all .5s;
+        list-style: none;
     }
     .navegador ul li{
-        display: block;
-        margin-left: 20px;
-        margin-top: 50px;
+        margin-top: 40px;
         
     }
     .navegador ul li a{
+        margin-left: 67%;
         font-size: 15px;
         
         
@@ -56,7 +57,7 @@
     }
 
     #check:checked ~ ul{
-        left: -100%;
+        left: -115%;
     }
     .seccion__inicio{
         height: 600px;
@@ -227,16 +228,128 @@
     }
     .seccion__nosotros p{
         color: white;
-        margin: 40px 60px 0 90px;
+        margin: 40px 60px 0 40px;
         font-size: 12px;
     }
     .Respuesta__faqs{
         color: white;
         font-size: 15px;
-        margin: 15px 20px 30px 20px;
+        margin: 15px 20px 10px 20px;
         
      }
      .seccion__faq{
         height: 500px;
+        p{
+            color: white;
+            margin: 20px;
+        }
      }
+     
+     .seccion__productos{
+        overflow: scroll;
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas:
+        "a"
+        "b"
+        "c"
+        "d"
+        "e";
+        }
+    .seccion__programas{
+        grid-area: a;
+        margin: 5% 32%;
+        a{
+            padding: 8px;
+            margin-left: 50px;
+        }
+    }   
+    .productos__cajones{
+        grid-area: b;
+        margin: 5px;
+    }
+    .seccion__productos .productos__cajones h4{
+        margin-left: 45%;
+    }
+    .seccion__productos .productos__cajones img{
+        height: 150px;
+        width: 330px;
+        margin: 8px 150px;
+    }
+    .seccion__productos .productos__cajones p{
+        font-size: 10px;
+        margin-left: 25%;
+        margin-bottom: 1%;
+    }
+    .seccion__productos .productos__cajones a{
+        font-size: 10px;
+        padding: 6px;
+        margin-left: 25%;
+    }
+    .productos__mancuernas{
+        grid-area: c;
+        margin: 5px;
+    }
+    .seccion__productos .productos__mancuernas h4{
+        margin-left: 45%;
+    }
+    .seccion__productos .productos__mancuernas img{
+        height: 150px;
+        width: 330px;
+        margin: 8px 150px;
+    }
+    .seccion__productos .productos__mancuernas p{
+        font-size: 10px;
+        margin-left: 25%;
+        margin-bottom: 1%;
+    }
+    .seccion__productos .productos__mancuernas a{
+        font-size: 10px;
+        padding: 6px;
+        margin-left: 25%;
+    }
+    .productos__discos{
+        grid-area: d;
+        margin: 5px;
+    }
+    .seccion__productos .productos__discos h4{
+        margin-left: 45%;
+    }
+    .seccion__productos .productos__discos img{
+        height: 150px;
+        width: 330px;
+        margin: 8px 150px;
+    }
+    .seccion__productos .productos__discos p{
+        font-size: 10px;
+        margin-left: 25%;
+        margin-bottom: 1%;
+    }
+    .seccion__productos .productos__discos a{
+        font-size: 10px;
+        padding: 6px;
+        margin-left: 25%;
+    }
+    .productos__pelotas{
+        grid-area: e;
+        margin: 5px;
+    }
+    .seccion__productos .productos__pelotas h4{
+        margin-left: 45%;
+    }
+    .seccion__productos .productos__pelotas img{
+        height: 150px;
+        width: 330px;
+        margin: 8px 150px;
+    }
+    .seccion__productos .productos__pelotas p{
+        font-size: 10px;
+        margin-left: 25%;
+        margin-bottom: 1%;
+    }
+    .seccion__productos .productos__pelotas a{
+        font-size: 10px;
+        padding: 6px;
+        margin-left: 25%;
+    }
 }
