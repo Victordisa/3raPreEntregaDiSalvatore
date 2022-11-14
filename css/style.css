@@ -386,6 +386,9 @@
   background-image: url("../assets/imagen_home.jpg");
   /*agrandar imagen */
   height: 900px; }
+  .seccion__faq p {
+    color: white;
+    margin: 0 500px; }
 
 .Pregunta__faqs {
   font-size: 25px;
@@ -397,7 +400,7 @@
   color: white;
   display: block;
   font-size: 18px;
-  margin: 100px 350px; }
+  margin: 40px 600px; }
 
 footer {
   grid-area: c;
@@ -533,9 +536,11 @@ footer {
   .Respuesta__faqs {
     color: white;
     font-size: 15px;
-    margin: 30px 90px; }
+    margin: 30px 33%; }
   .seccion__faq {
     height: 500px; }
+    .seccion__faq p {
+      margin: 10px 60px; }
   .seccion__productos {
     overflow: scroll;
     display: grid;

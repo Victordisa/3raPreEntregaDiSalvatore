@@ -2,6 +2,10 @@
    grid-area: b;
    background-image: url("../assets/imagen_home.jpg"); /*agrandar imagen */
    height: 900px;
+   p{
+      color: white;
+      margin: 0 500px;
+    }
 }
 
 .Pregunta__faqs{
@@ -15,6 +19,7 @@
     color: white;
     display: block;
     font-size: 18px;
-    margin: 100px 350px;
+    margin: 40px 600px;
+    
  }
  

@@ -149,11 +149,14 @@
         .Respuesta__faqs{
             color: white;
             font-size: 15px;
-            margin: 30px 90px;
+            margin: 30px 33%;
             
          }
          .seccion__faq{
             height: 500px;
+            p{
+                margin: 10px 60px;
+            }
          }
          .seccion__productos{
             overflow: scroll;
