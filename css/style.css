@@ -411,14 +411,18 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas: "a b c"; }
 
+.pie__linea1 {
+  grid-area: a;
+  margin-top: 45px;
+  border-top: 1px solid white; }
+
 .Pie_redes {
   grid-area: b;
-  min-width: 700px;
   margin-left: 15%;
   margin-bottom: 6%; }
   .Pie_redes a {
     display: inline-flex;
-    margin: 15px;
+    margin: 15px 5px;
     text-decoration: none;
     font-size: 15px;
     line-height: 60px;
@@ -426,9 +430,14 @@
     transition: all .4s ease-in-out; }
   .Pie_redes p {
     color: white;
-    margin-left: 22%; }
+    margin-left: 25%; }
   .Pie_redes a:last-child {
-    margin-left: 20%; }
+    margin-left: 22%; }
+
+.pie__linea2 {
+  grid-area: c;
+  margin-top: 45px;
+  border-top: 1px solid white; }
 
 .Pie_redes a:hover {
   transform: scale(1.2); }
@@ -859,11 +868,10 @@
     padding: 6px;
     margin-left: 26%; }
   .Pie_redes a {
-    margin-left: -45px;
-    margin-right: 55px;
-    font-size: 15px;
-    line-height: 60px; }
+    font-size: 13px;
+    margin-left: -85px;
+    margin-right: 95px; }
   .Pie_redes p {
-    margin-left: 45px; }
+    margin-left: 7px; }
   .Pie_redes a:last-child {
-    margin-left: 30px; } }
+    margin-left: 3px; } }
