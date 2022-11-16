@@ -107,7 +107,7 @@
     .seccion__planes .seccion__plan1 img{
         height: 150px;
         width: 270px;
-        margin: 8px 8%;
+        margin: 8px 4%;
     }
     .seccion__planes .seccion__plan1 p{
         color: white;
@@ -139,7 +139,7 @@
     .seccion__planes .seccion__plan2 img{
         height: 150px;
         width: 270px;
-        margin: 8px 8%;
+        margin: 8px 4%;
     }
     .seccion__planes .seccion__plan2 p{
         color: white;
@@ -171,7 +171,7 @@
     .seccion__planes .seccion__plan3 img{
         height: 150px;
         width: 270px;
-        margin: 8px 8%;
+        margin: 8px 4%;
     }
     .seccion__planes .seccion__plan3 p{
         color: white;
@@ -354,5 +354,20 @@
         font-size: 10px;
         padding: 6px;
         margin-left: 26%;
+    }
+    .Pie_redes{
+        a {
+            margin-left: -45px;
+            margin-right: 55px;
+            font-size: 15px;
+            line-height: 60px;
+          }
+          p{
+            margin-left: 45px;
+          }
+          a:last-child{
+            margin-left: 30px;
+          }
+        
     }
 }

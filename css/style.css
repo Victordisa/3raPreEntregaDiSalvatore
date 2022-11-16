@@ -402,22 +402,33 @@
   font-size: 18px;
   margin: 40px 600px; }
 
-footer {
+.Pie__inicio {
   grid-area: c;
   background-color: #050505; }
 
+.Pie__inicio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "a b c"; }
+
 .Pie_redes {
+  grid-area: b;
   min-width: 700px;
-  margin-top: 70px;
-  margin-bottom: 60px; }
+  margin-left: 15%;
+  margin-bottom: 6%; }
   .Pie_redes a {
     display: inline-flex;
     margin: 15px;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 15px;
     line-height: 60px;
     color: #f1f1f1;
     transition: all .4s ease-in-out; }
+  .Pie_redes p {
+    color: white;
+    margin-left: 22%; }
+  .Pie_redes a:last-child {
+    margin-left: 20%; }
 
 .Pie_redes a:hover {
   transform: scale(1.2); }
@@ -662,7 +673,7 @@ footer {
   .seccion__planes .seccion__plan1 img, .seccion__planes .seccion__plan2 img, .seccion__planes .seccion__plan3 img {
     height: 150px;
     width: 270px;
-    margin: 8px 8%; }
+    margin: 8px 4%; }
   .seccion__planes .seccion__plan1 p, .seccion__planes .seccion__plan2 p, .seccion__planes .seccion__plan3 p {
     color: white;
     font-size: 10px;
@@ -687,7 +698,7 @@ footer {
   .seccion__planes .seccion__plan2 img {
     height: 150px;
     width: 270px;
-    margin: 8px 8%; }
+    margin: 8px 4%; }
   .seccion__planes .seccion__plan2 p {
     color: white;
     font-size: 10px;
@@ -712,7 +723,7 @@ footer {
   .seccion__planes .seccion__plan3 img {
     height: 150px;
     width: 270px;
-    margin: 8px 8%; }
+    margin: 8px 4%; }
   .seccion__planes .seccion__plan3 p {
     color: white;
     font-size: 10px;
@@ -846,4 +857,13 @@ footer {
   .seccion__productos .productos__pelotas a {
     font-size: 10px;
     padding: 6px;
-    margin-left: 26%; } }
+    margin-left: 26%; }
+  .Pie_redes a {
+    margin-left: -45px;
+    margin-right: 55px;
+    font-size: 15px;
+    line-height: 60px; }
+  .Pie_redes p {
+    margin-left: 45px; }
+  .Pie_redes a:last-child {
+    margin-left: 30px; } }
