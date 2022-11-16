@@ -608,7 +608,20 @@
     .productos__pelotas img {
       height: 150px;
       width: 450px;
-      margin: 8px 90px; } }
+      margin: 8px 90px; }
+  .Pie_redes {
+    grid-area: b;
+    margin-left: 1px;
+    margin-bottom: 6%; }
+    .Pie_redes a {
+      display: inline-flex;
+      margin: 10px 5px;
+      font-size: 10px; }
+    .Pie_redes p {
+      font-size: 10px;
+      margin-left: 32%; }
+    .Pie_redes a:last-child {
+      margin-left: 27%; } }
 
 @media (max-width: 576px) {
   .contenedor {
@@ -867,11 +880,15 @@
     font-size: 10px;
     padding: 6px;
     margin-left: 26%; }
+  .Pie__inicio {
+    display: inline-block; }
   .Pie_redes a {
-    font-size: 13px;
-    margin-left: -85px;
-    margin-right: 95px; }
+    margin-left: 5%; }
   .Pie_redes p {
-    margin-left: 7px; }
+    margin-left: 35%; }
   .Pie_redes a:last-child {
-    margin-left: 3px; } }
+    margin-left: 32%; }
+  .pie__linea1 {
+    display: none; }
+  .pie__linea2 {
+    display: none; } }

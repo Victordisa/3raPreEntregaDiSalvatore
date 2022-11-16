@@ -215,7 +215,24 @@
                     @include img-tablet;
                 }
             }
-
+            .Pie_redes{
+                grid-area: b;
+                margin-left: 1px;
+                margin-bottom: 6%;
+                a {
+                    display: inline-flex;
+                    margin: 10px 5px;
+                    font-size: 10px;
+                  }
+                  p{
+                    font-size: 10px;
+                    margin-left: 32%;
+                  }
+                  a:last-child{
+                    margin-left: 27%;
+                  }
+                
+            }
 }
 
 
