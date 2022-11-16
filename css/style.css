@@ -695,7 +695,7 @@
   .seccion__planes .seccion__plan1 img, .seccion__planes .seccion__plan2 img, .seccion__planes .seccion__plan3 img {
     height: 150px;
     width: 270px;
-    margin: 8px 4%; }
+    margin: 8px 8%; }
   .seccion__planes .seccion__plan1 p, .seccion__planes .seccion__plan2 p, .seccion__planes .seccion__plan3 p {
     color: white;
     font-size: 10px;
@@ -720,7 +720,7 @@
   .seccion__planes .seccion__plan2 img {
     height: 150px;
     width: 270px;
-    margin: 8px 4%; }
+    margin: 8px 8%; }
   .seccion__planes .seccion__plan2 p {
     color: white;
     font-size: 10px;
@@ -745,7 +745,7 @@
   .seccion__planes .seccion__plan3 img {
     height: 150px;
     width: 270px;
-    margin: 8px 4%; }
+    margin: 8px 8%; }
   .seccion__planes .seccion__plan3 p {
     color: white;
     font-size: 10px;
